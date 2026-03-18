@@ -54,7 +54,7 @@ This project solves it by:
 
 # 🏗️ System Architecture
 
-```
+
 flowchart LR
 A[CSV Files - Kaggle] --> B[SQLite Database]
 B --> C[Data Preprocessing]
@@ -64,7 +64,6 @@ E --> F[Efficient Frontier]
 F --> G[Optimal Portfolio]
 G --> H[Automation Pipeline]
 H --> I[Power BI Dashboard]
-````
 
 ---
 
@@ -211,7 +210,6 @@ If you found this project useful:
 
 <p align="center">
   <b>💡 Turning Data into Investment Intelligence</b>
-</p>
-```
+</p> 
 
 ---
