@@ -1,4 +1,3 @@
-````
 <!-- ===================== BANNER ===================== -->
 <p align="center">
   <img src="assets/banner.png" alt="Financial Portfolio Optimization" width="100%" />
@@ -55,7 +54,7 @@ This project solves it by:
 
 # 🏗️ System Architecture
 
-```mermaid
+```
 flowchart LR
 A[CSV Files - Kaggle] --> B[SQLite Database]
 B --> C[Data Preprocessing]
@@ -211,3 +210,5 @@ If you found this project useful:
   <b>💡 Turning Data into Investment Intelligence</b>
 </p>
 ```
+
+---
