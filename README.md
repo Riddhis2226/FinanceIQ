@@ -1,6 +1,6 @@
 <!-- ===================== BANNER ===================== -->
 <p align="center">
-  <img src="assets/banner.png" alt="Financial Portfolio Optimization" width="100%" />
+  <img src=""C:\Users\acer\Downloads\ChatGPT Image Mar 18, 2026, 10_14_51 PM.png"" width="100%" style="border-radius: 10px;" />
 </p>
 
 <!-- ===================== TYPING ANIMATION ===================== -->
