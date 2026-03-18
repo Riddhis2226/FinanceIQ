@@ -1,6 +1,6 @@
 <!-- ===================== BANNER ===================== -->
 <p align="center"> 
-  <img src="assets/banner.png" alt="Financial Portfolio Optimization" width="100%" /> 
+  <img src="assets/banner.png" width="100%" /> 
 </p>
 
 <!-- ===================== TYPING ANIMATION ===================== -->
@@ -14,12 +14,41 @@
 
 ---
 
-<!-- ===================== BADGES ===================== -->
+<!-- ===================== PREMIUM BADGES ===================== -->
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python" />
-  <img src="https://img.shields.io/badge/Database-SQLite-green?logo=sqlite" />
-  <img src="https://img.shields.io/badge/Visualization-PowerBI-yellow?logo=powerbi" />
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
+  <img src="https://img.shields.io/badge/Python-Data%20Science-blue?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-Database-green?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi&logoColor=black"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Finance-Quantitative-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Portfolio-Optimization-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Monte%20Carlo-Simulation-orange?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Production%20Ready-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Made%20With-Python-blueviolet?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <b>💹 Transforming Raw Market Data → Intelligent Investment Strategies</b>
+</p>
+
+---
+
+# 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -54,8 +83,33 @@ This project solves it by:
 
 # 🏗️ System Architecture
 
+```mermaid
+flowchart LR
+    A[📂 CSV Files - Kaggle] --> B[(🗄️ SQLite Database)]
+    B --> C[🧹 Data Preprocessing]
+    C --> D[📊 Returns Calculation]
+    D --> E[🎲 Monte Carlo Simulation]
+    E --> F[📈 Efficient Frontier]
+    F --> G[🎯 Optimal Portfolio]
+    G --> H[⚡ Automation Pipeline]
+    H --> I[📊 Power BI Dashboard]
+````
+
+---
+
+# 📈 Live Market Snapshot
+
 <p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="600"/>
+  <img src="https://img.shields.io/badge/NIFTY%2050-Market%20Analysis-blue?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <a href="https://www.tradingview.com/symbols/NSE-RELIANCE/">
+    <img src="https://img.shields.io/badge/RELIANCE-Live%20Chart-green?style=for-the-badge"/>
+  </a>
+  <a href="https://www.tradingview.com/symbols/NSE-TCS/">
+    <img src="https://img.shields.io/badge/TCS-Live%20Chart-orange?style=for-the-badge"/>
+  </a>
 </p>
 
 ---
@@ -63,25 +117,16 @@ This project solves it by:
 # ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,sqlite,github,jupyternotebook,powerbi" />
+  <img src="https://skillicons.dev/icons?i=python,sqlite,github" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
-</p>
-```
-
-| Category        | Tools            |
-| --------------- | ---------------- |
-| Language        | Python           |
-| Data Processing | Pandas, NumPy    |
-| Database        | SQLite           |
-| Analysis        | Jupyter Notebook |
-| Visualization   | Plotly, Power BI |
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="50"/>
+  <img src="https://img.icons8.com/color/48/power-bi.png" height="50"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/plotly.svg" height="50"/>
+</p> 
 
 ---
 
@@ -141,15 +186,14 @@ This project solves it by:
 # 📂 Project Structure
 
 ```
-├── datasets/
+├── assets/
 │   ├── banner.png
 │   └── dashboard.png
 ├── datasets/
 │   ├── nifty50.db
-|   ├── stock_metrics_summary.csv
-│   └── archeive.zip (50 Companies Stock CSVs)
+│   ├── stock_metrics_summary.csv
+│   └── archive.zip
 ├── Financial Analysis Dashboard.pbix
-├── LICENSE
 ├── portfolio_pipeline.ipynb
 ├── automation_pipeline.ipynb
 └── README.md
@@ -160,13 +204,8 @@ This project solves it by:
 # ▶️ How to Run
 
 ```bash
-# Clone repository
-git clone https://github.com/your-username/project-name.git
-
-# Install dependencies
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 pip install pandas numpy plotly
-
-# Run notebook
 jupyter notebook
 ```
 
@@ -211,7 +250,7 @@ If you found this project useful:
 ---
 
 <p align="center">
-  <b>💡 Turning Data into Investment Intelligence</b>
-</p> 
+  <b>💡 Turning Market Data into Smart Investment Decisions</b>
+</p>
 
----
+--- 
