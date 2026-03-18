@@ -1,6 +1,6 @@
 <!-- ===================== BANNER ===================== -->
-<p align="center">
-  <img src=""C:\Users\acer\Downloads\ChatGPT Image Mar 18, 2026, 10_14_51 PM.png"" width="100%" style="border-radius: 10px;" />
+<p align="center"> 
+  <img src="assets/banner.png" alt="Financial Portfolio Optimization" width="100%" /> 
 </p>
 
 <!-- ===================== TYPING ANIMATION ===================== -->
@@ -140,6 +140,9 @@ H --> I[Power BI Dashboard]
 # 📂 Project Structure
 
 ```
+├── datasets/
+│   ├── banner.png
+│   └── dashboard.png
 ├── datasets/
 │   ├── nifty50.db
 |   ├── stock_metrics_summary.csv
