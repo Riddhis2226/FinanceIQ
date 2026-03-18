@@ -54,16 +54,15 @@ This project solves it by:
 
 # 🏗️ System Architecture
 
-
 flowchart LR
-A[CSV Files - Kaggle] --> B[SQLite Database]
-B --> C[Data Preprocessing]
-C --> D[Returns Calculation]
-D --> E[Monte Carlo Simulation]
-E --> F[Efficient Frontier]
-F --> G[Optimal Portfolio]
-G --> H[Automation Pipeline]
-H --> I[Power BI Dashboard]
+    A[📂 CSV Files - Kaggle] --> B[(🗄️ SQLite Database)]
+    B --> C[🧹 Data Preprocessing]
+    C --> D[📊 Returns Calculation]
+    D --> E[🎲 Monte Carlo Simulation]
+    E --> F[📈 Efficient Frontier]
+    F --> G[🎯 Optimal Portfolio]
+    G --> H[⚡ Automation Pipeline]
+    H --> I[📊 Power BI Dashboard]
 
 ---
 
@@ -71,6 +70,14 @@ H --> I[Power BI Dashboard]
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,sqlite,github" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
 </p>
 
 | Category        | Tools            |
